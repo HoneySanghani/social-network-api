@@ -10,4 +10,5 @@ MongoDb, node
 ## Demo url
 https://watch.screencastify.com/v/YGGpSEvuHeUUw784499T
 ## Output
-![Screenshot (1)](https://user-images.githubusercontent.com/48147515/138606897-35dbf719-1cf3-4798-9e0c-1ddbba657de6.png)
+![Screenshot (2)](https://user-images.githubusercontent.com/48147515/138606937-f0fbd2fa-3921-4e93-8226-23d2806670f1.png)
+

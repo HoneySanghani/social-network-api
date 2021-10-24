@@ -29,7 +29,7 @@ const ThoughtController = {
       })
       .then((data) => {
         if (!data) {
-          res.status(404).json({ message: "No user found with this id" });
+          res.status(404).json({ message: "No user found" });
           return;
         }
         res.json(data);
@@ -44,7 +44,7 @@ const ThoughtController = {
     })
       .then((data) => {
         if (!data) {
-          res.status(400).json({ message: "No found thought with this id" });
+          res.status(400).json({ message: "No thought found" });
           return;
         }
         res.json(data);
@@ -57,7 +57,7 @@ const ThoughtController = {
         if (!data) {
           return res
             .status(404)
-            .json({ message: "No thought was found with this id" });
+            .json({ message: "No thought found with this id" });
         }
         return User.findOneAndUpdate(
           { _id: params.userId },
